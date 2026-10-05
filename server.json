@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/india-tenders",
+  "title": "India Tenders",
+  "description": "India Government Tenders MCP — active public tenders from India's official",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/india-tenders",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-india-tenders",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/india-tenders/mcp"
+    }
+  ]
+}
