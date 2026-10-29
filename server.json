@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/india-tenders",
   "title": "India Tenders",
   "description": "India Government Tenders MCP — active public tenders from India's official e-procurement portals…",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/india-tenders",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-india-tenders",

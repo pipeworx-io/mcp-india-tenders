@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-india-tenders",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "India Government Tenders MCP — active public tenders from India's official e-procurement portals (keyless).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-india-tenders": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "india-tenders"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-india-tenders.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/india-tenders",
   "pipeworx": {
-    "sourceHash": "v1-e3af79d126ad8266d87c159a1b9141e0656ca19a6888588a9d1153d7adb11ac3",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "india-tenders",
+    "gatewaySlug": "india-tenders",
+    "sourceHash": "v1-fddbdf410db20c11c95d5bf97f4948fe6ce64dcdd37971946adab46c3f24b84c",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
