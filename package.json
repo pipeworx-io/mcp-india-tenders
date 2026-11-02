@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-india-tenders",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "India Government Tenders MCP — active public tenders from India's official e-procurement portals (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "india-tenders",
     "gatewaySlug": "india-tenders",
-    "sourceHash": "v1-fddbdf410db20c11c95d5bf97f4948fe6ce64dcdd37971946adab46c3f24b84c",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-3ac650eff2351f9e284cb6312669c70c87b58a28bfc451983c512a76e9fac425",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
